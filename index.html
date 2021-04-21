@@ -47,12 +47,23 @@
         </div>
 
         <!-- Navbar -->
-        <nav class="navbar page-navbar">
+        <nav id="navbar" class="navbar page-navbar">
             <ul>
-              <li><a class="nav-link link-btn btn-with-border" href="#hero">Sign in</a></li>
-              <li><a class="nav-link link-btn" href="#hero">Try For Free</a></li>
+                <li>
+                    <a class="nav-link link-btn btn-with-border source-btn" href="https://github.com/Tejas94/landing-page-template"  target="_blank">
+                    View Source Code <i class="icon-social-github git-icon"></i>
+                    </a>
+                </li>
+                <li><a class="nav-link link-btn" href="#hero">Try For Free</a></li>
             </ul>
         </nav>
+        
+        <div class="toggle-nav" onclick="toggleHeader(true)">
+            <i class="icon-menu icon-font"></i>
+        </div>
+        <div class="toggle-nav nav-close" onclick="toggleHeader(false)">
+            <i class="icon-close icon-font"></i>
+        </div>
     </header>
 
     <!-- hero section -->
@@ -61,7 +72,7 @@
             <div class="row">
                 <div class="col-lg-6 block-columns">
                     <h1 class="column-h1">We offer modern solutions for growing your business</h1>
-                    <h2 class="column-h2">We are team of talented designers making websites with Bootstrap</h2>
+                    <h2 class="column-h2">Build a landing page for your business or project and generate more leads!</h2>
                     <div class="btn-wrapper">
                         <a class="nav-link link-btn" href="#hero">Try For Free</a>
                     </div>
@@ -112,14 +123,14 @@
                     <div class="pricing-box">
                         <span class="featured-band">Featured</span>
                         <h3 class="starter-text">Starter Plan</h3>
-                        <div class="price-text"><sup>$</sup>19<span class="lite-text"> / mo</span></div>
+                        <div class="price-text"><sup>$</sup>49<span class="lite-text"> / mo</span></div>
                         <img src="assets/img/pricing-starter.png" class="img-fluid" alt="">
                         <ul>
-                            <li>Aida dere</li>
-                            <li>Nec feugiat nisl</li>
-                            <li>Nulla at volutpat dola</li>
-                            <li>Pharetra massa</li>
-                            <li class="na">Massa ultricies mi</li>
+                            <li>Designing</li>
+                            <li>Planing & Development</li>
+                            <li>Reviewing & Changes</li>
+                            <li class="na">Production build & Hosting</li>
+                            <li class="na">Maintenance & update</li>
                         </ul>
                         <a href="#" class="link-btn btn-with-border">Buy Now</a>
                     </div>
@@ -128,14 +139,14 @@
                 <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
                     <div class="pricing-box">
                         <h3 class="ultimate-text">Ultimate Plan</h3>
-                        <div class="price-text"><sup>$</sup>49<span  class="lite-text"> / mo</span></div>
+                        <div class="price-text"><sup>$</sup>99<span  class="lite-text"> / mo</span></div>
                         <img src="assets/img/pricing-ultimate.png" class="img-fluid" alt="">
                         <ul>
-                            <li>Aida dere</li>
-                            <li>Nec feugiat nisl</li>
-                            <li>Nulla at volutpat dola</li>
-                            <li>Pharetra massa</li>
-                            <li>Massa ultricies mi</li>
+                            <li>Designing</li>
+                            <li>Planing & Development</li>
+                            <li>Reviewing & Changes</li>
+                            <li>Production build & Hosting</li>
+                            <li>Maintenance & update</li>
                         </ul>
                         <a href="#" class="link-btn btn-with-border">Buy Now</a>
                     </div>
@@ -161,7 +172,7 @@
     <footer class="footer bg-light">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-6 col-sm-6">
                     <ul class="list-inline mb-2">
                         <li class="list-inline-item">
                         <a href="#">About</a>
@@ -180,6 +191,11 @@
                         </li>
                     </ul>
                     <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2020. All Rights Reserved.</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 right-align">
+                    <a class="nav-link link-btn btn-with-border source-btn" href="https://github.com/Tejas94/landing-page-template"  target="_blank">
+                        View Source Code <i class="icon-social-github git-icon"></i>
+                    </a>
                 </div>
             </div>
         </div>

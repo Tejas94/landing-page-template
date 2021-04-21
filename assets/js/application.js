@@ -5,3 +5,11 @@ window.onscroll = function() {
         document.getElementById('page-header').classList.remove('header-scrolled');
     }
 }
+
+function toggleHeader(toggle) {
+    if(toggle) {
+        document.getElementById('page-header').classList.add('open');
+    } else {
+        document.getElementById('page-header').classList.remove('open');
+    }
+}
